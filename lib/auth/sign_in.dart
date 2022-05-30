@@ -150,7 +150,7 @@ class _SignInState extends State<SignIn> {
                       ),
                     ),
                     SizedBox(
-                      height: Dimensions.height30,
+                      height: Dimensions.height30-10,
                     ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -172,12 +172,17 @@ class _SignInState extends State<SignIn> {
                               color: Colors.white,
                               size: Dimensions.font18,
                             ),
+                            SmallText(
+                              text: "Remember Me",
+                              color: Colors.white,
+                              size: Dimensions.font18,
+                            ),
                           ],
                         ),
                         SmallText(
                               text: "Forgot Password ?",
                               color: Colors.white,
-                              size: Dimensions.font18,
+                              size: Dimensions.font18-5,
                             ),
                       ],
                     ),
